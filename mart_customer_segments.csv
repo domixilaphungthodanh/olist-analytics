@@ -1,0 +1,4 @@
+﻿segment,customers,pct_customers,orders,revenue,pct_revenue,avg_revenue_per_customer,avg_recency_days,avg_review_score
+one_time,91832,96.96,91832,14797435.43,94.35,161.14,239.5,4.113
+repeat_2,2640,2.79,5280,768090.03,4.9,290.94,224.6,4.145
+loyal_3plus,235,0.25,798,118181.28,0.75,502.9,203.0,4.337

@@ -1,0 +1,19 @@
+# Dữ liệu thô — KHÔNG commit (135 MB)
+data/raw/*
+!data/raw/.gitkeep
+
+# Database và output sinh ra
+data/processed/*
+!data/processed/.gitkeep
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Giữ lại CSV và chart vì đây là kết quả của dự án

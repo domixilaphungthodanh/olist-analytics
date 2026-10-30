@@ -1,0 +1,5 @@
+﻿health_flag,sellers,orders,revenue,pct_revenue,avg_review_score,avg_late_rate_pct
+healthy,447,44900,5679202.25,43.76,4.31,3.53
+watch,302,37355,4655616.12,35.88,3.976,8.58
+low_volume,971,9638,1844609.51,14.21,4.12,6.64
+at_risk,67,5258,797738.42,6.15,3.466,18.06
