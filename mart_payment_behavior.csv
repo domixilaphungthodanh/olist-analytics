@@ -1,5 +1,0 @@
-﻿payment_type,orders,pct_orders,revenue,pct_revenue,avg_order_value,avg_installments,pct_installments_6plus,avg_review_score,late_rate_pct
-credit_card,73852,75.43,12299063.13,78.42,166.54,3.55,21.38,4.117,6.71
-boleto,19479,19.89,2817400.08,17.96,144.65,1.0,0.0,4.118,7.34
-voucher,3067,3.13,355065.52,2.26,115.77,1.15,0.82,4.09,5.98
-debit_card,1512,1.54,212178.01,1.35,140.33,1.0,0.0,4.193,5.33

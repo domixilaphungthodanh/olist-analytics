@@ -1,6 +1,0 @@
-﻿sort_order,delivery_bucket,orders,pct_orders,reviewed_orders,avg_review_score,pct_low_review,pct_five_star,avg_lead_time_days,avg_delay_days,avg_order_total,avg_freight
-1,on_time_or_early,89672,90.49,89182,4.291,9.25,62.28,10.98,-13.44,158.59,22.6
-2,late_1_3d,1869,1.89,1851,3.291,32.14,33.17,23.29,1.83,157.75,23.59
-3,late_4_7d,1802,1.82,1748,2.103,67.68,14.07,28.23,5.52,184.58,24.93
-4,late_8d_plus,2861,2.89,2780,1.697,79.24,7.01,44.49,19.57,182.85,26.54
-5,not_delivered,2888,2.91,2769,1.754,77.79,9.1,,,192.84,24.44

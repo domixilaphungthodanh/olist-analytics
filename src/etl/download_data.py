@@ -75,7 +75,7 @@ def download_one(name: str, expected_size: int) -> tuple[bool, str]:
                 print(f"      chờ {wait}s rồi thử lại...")
                 time.sleep(wait)
 
-    return False, f"THẤT BẠI sau {MAX_RETRIES} lần: {last_error}"
+    raise RuntimeError(f"THẤT BẠI sau {MAX_RETRIES} lần: {last_error}")
 
 
 def main() -> None:
@@ -111,6 +111,7 @@ def main() -> None:
         print(f"THẤT BẠI: {len(failed)} file")
         for f in failed:
             print(f"  - {f}")
+        raise SystemExit(1)
     else:
         print(f"HOÀN TẤT: {len(RAW_FILES)} file, {total_new} file mới tải")
         total_size = sum((DATA_RAW / n).stat().st_size for n in RAW_FILES)

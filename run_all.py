@@ -13,6 +13,8 @@ import subprocess
 import sys
 from pathlib import Path
 
+from src.etl.util import force_utf8_stdout
+
 ROOT = Path(__file__).resolve().parent
 
 STEPS: list[tuple[str, list[str]]] = [
@@ -25,6 +27,7 @@ STEPS: list[tuple[str, list[str]]] = [
 
 
 def main() -> int:
+    force_utf8_stdout()
     os.chdir(ROOT)
     env = dict(os.environ, PYTHONIOENCODING="utf-8", PYTHONUTF8="1")
 

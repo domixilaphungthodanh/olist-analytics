@@ -443,6 +443,7 @@ def main() -> None:
         )
         conn.execute("DROP TABLE IF EXISTS tmp_dist")
         dist.to_sql("tmp_dist", conn, if_exists="replace", index=False)
+        conn.execute("CREATE UNIQUE INDEX idx_tmp_dist_order_id ON tmp_dist(order_id)")
         conn.execute(
             "UPDATE fact_orders SET avg_distance_km = "
             "(SELECT avg_distance_km FROM tmp_dist WHERE tmp_dist.order_id = fact_orders.order_id)"
